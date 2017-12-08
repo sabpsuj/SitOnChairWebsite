@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('./../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('./../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayB';
+    src: url('./../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('./../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+#logo_top{
+    font-family: 'ralewayB';
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    line-height: 41px;
+    display: inline-block;
+    float: left;
+}
+span{
+    color: #00c49e;
+    font-weight: 800;
+}
+
+header{
+    width:100%;
+    background-color: #000000;
+    color: #ffffff;
+    height: 41px;
+}
+ul{
+    float: right;
+    line-height: 41px;
+}
+li{
+    display: inline-block;
+    font-family: 'ralewayB';
+    text-transform: uppercase;
+    padding-left: 26px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+section{
+    width: 100%;
+}
+#slider{
+    background: linear-gradient(180deg, #fffdfd, #d4d4c5 );
+    height:500px;
+}
+.slider{
+    font-family: 'raleway';
+    float: left;
+    margin-top: 135px;
+}
+.content_top{
+    width: 45%;
+    align-content: center;
+}
+.content_top_image{
+    background: url(./../images/black_chair.png) no-repeat;
+    width: 448px;
+    height: 353px;
+    background-size: 124%;
+    margin-top: 75px;
+}
+.arrow{
+    font-size: 62px;
+    font-weight: 300;
+    color: #00c49e;
+    width: 5%;
+    padding: 8px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+h1{
+    font-size: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main_content{
+    text-align: center;
+    padding-top: 30px;
+}
+button{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #00c49e;
+    color: #ffffff;
+    border: 0;
+    width: 260px;
+    margin-top: 22px;
+    margin-left: 107px;
+    padding: 10px;
+    border-radius: 6px;
+}
