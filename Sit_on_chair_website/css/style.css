@@ -355,6 +355,7 @@ h3 {
     font-size: 15px;
     line-height: 30px;
     color: #c2c2c2;
+    vertical-align: super;
 }
 
 .price p:last-child{
@@ -463,4 +464,62 @@ input[type="text"]{
 #submit p{
    font-size: 21px;
    margin-left: 57px;
+}
+
+footer{
+    height: 90px;
+}
+
+#copyright{
+    font-family: 'raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #838383;
+    float: left;
+}
+
+.social_icons{
+    float: left;
+    margin-left: 372px;
+}
+
+#fr{
+    width: 50px;
+    height: 50px;
+    background: url('./../images/flickr.png') no-repeat;
+    float: left;
+}
+
+#vimeo{
+    width: 50px;
+    height: 50px;
+    background: url('./../images/vimeo.png') no-repeat;
+    float: left;
+}
+
+#pinterest{
+    width: 50px;
+    height: 50px;
+    background: url('./../images/pinterest.png') no-repeat;
+    float: left;
+}
+
+#twitter{
+    width: 50px;
+    height: 50px;
+    background: url('./../images/twitter.png') no-repeat;
+    float: left;
+}
+
+#logo_bottom{
+    font-family: 'raleway', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: #838383;
+    float: right;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+#logo_bottom span{
+    color: #5c5959;
+    font-weight: 900;
 }
