@@ -52,6 +52,7 @@ header {
     background-color: #000000;
     color: #ffffff;
     height: 41px;
+    position: relative;
 }
 
 ul {
@@ -72,10 +73,11 @@ li {
     display: none;
 }
 
-li:hover > #submenu{
+#submenu.show{
     top: 60px;
-    right: 260px;
+    right: 240px;
     display: block;
+    z-index: 100;
     position: fixed;
     height: 120px;
     width: 140px;
@@ -112,6 +114,17 @@ section {
     float: left;
     margin-top: 135px;
 }
+.slider ul{
+    list-style: none;
+}
+
+.slider li{
+    display: none;
+}
+
+.slider .visible{
+    display: block;
+}
 
 .content_top {
     width: 45%;
@@ -119,19 +132,27 @@ section {
 }
 
 .content_top_image {
-    background: url(./../images/black_chair.png) no-repeat;
-    width: 448px;
-    height: 353px;
-    background-size: 124%;
-    margin-top: 75px;
+    margin-top: 55px;
+    align-content: right;
+}
+
+img{
+    padding: 0;
+    width: auto;
+    height: 350px;
+
+}
+
+.slider li:nth-child(2n){
+    margin-left: 100px;
 }
 
 .arrow {
-    font-size: 62px;
+    font-size: 119px;
     font-weight: 300;
     color: #00d4ac;
     width: 5%;
-    padding: 8px;
+    padding: 15px;
     margin-top: 186px;
     text-align: center;
 }
@@ -232,6 +253,10 @@ h2 {
 
 .additional {
     margin-top: 1px;
+}
+
+.box_hide{
+    visibility: hidden;
 }
 
 /* Pricing section */

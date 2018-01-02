@@ -28,8 +28,13 @@
 
     <section id="slider">
         <div class="container">
-            <article class="slider arrow">&lt;</article>
-            <article class="slider content_top content_top_image"></article>
+            <article class="slider arrow" id="prevPicture">&lt;</article>
+            <ul class="slider content_top content_top_image">
+                <li class="slider content_top content_top_image"><img src="images/chair1.png" alt=""></li>
+                <li class="slider content_top content_top_image"><img src="images/chair2.png" alt=""></li>
+                <li class="slider content_top content_top_image"><img src="images/chair3.png" alt=""></li>
+                <li class="slider content_top content_top_image"><img src="images/chair4.png" alt=""></li>
+            </ul>
             <article class="slider content_top">
                 <h1>sit
                     <span>on </span>our
@@ -39,18 +44,23 @@
                     turpis efficitur purus, eget egestas dui arcu nec mauris. Duis aliquet lacus sit amet tempus congue.</p>
                 <button>zobacz więcej</button>
             </article>
-            <article class="slider arrow">&gt;</article>
+
+            <article class="slider arrow" id="nextPicture">&gt;</article>
         </div>
     </section>
     <section id="gallery">
         <div class="container">
             <div class="box1">
-                <h2>Chair CLAIR</h2>
-                <div class="short_line"></div>
+                <div class="box_title">
+                    <h2>Chair CLAIR</h2>
+                    <div class="short_line"></div>
+                </div>
             </div>
             <div class="box2">
+                <div class="box_title">
                 <h2>Chair MARGARITA</h2>
                 <div class="short_line"></div>
+                </div>
             </div>
             <div class="box3">
                 <h2 class="additional">Finds all inputs</h2>
@@ -176,6 +186,7 @@
             <p id="logo_bottom">SIT <span>ON</span> CHAIR</p>
         </div>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
